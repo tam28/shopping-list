@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shopping List App</title>
+<link href="style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href='https://fonts.googleapis.com/css?family=Averia+Sans+Libre' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+<h1><span class="aqua">shopping</span>list</h1>
+</header>
+<div class="clearfix"></div>
+<div id="wrap">
+<div id="frame">
+
+<form id="add-item">
+<input type="text" id="add" name="add" value="add" placeholder="add items here"/>
+<select name="qty" id="select">
+	<option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    </select>
+       <button id="reset">clear list</button>
+
+</form>
+<br/>
+<p>*** click on qty or item to driectly edit and press enter</p>
+<div class="clearfix"></div>
+<form id="added-items">
+<ul>
+<li><i class="fa fa-check fa-2x"></i><span>duck</span><i class="fa fa-minus"></i><i class="fa fa-plus"></i></li>
+<li><i class="fa fa-check fa-2x"></i><span>lychees</span><i class="fa fa-minus"></i><i class="fa fa-plus"></i></li>
+<li><i class="fa fa-check fa-2x"></i><span>coconut milk</span><i class="fa fa-minus"></i><i class="fa fa-plus"></i></li>
+<li><i class="fa fa-check fa-2x"></i><span>bok choy</span><i class="fa fa-minus"></i><i class="fa fa-plus"></i></li>
+<li><i class="fa fa-check fa-2x"></i><span>red onion</span><i class="fa fa-minus"></i><i class="fa fa-plus"></i></li>
+</ul>
+</form>
+
+</div><!-- close frame -->
+</div> <!-- close wrap -->
+</body>
+</html>
